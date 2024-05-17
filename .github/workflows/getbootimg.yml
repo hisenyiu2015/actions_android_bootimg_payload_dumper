@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://firmware-res.flyme.com/Firmware/Flyme/meizu21Pro/10.5.5.1/cn/20240513191601/7347d103/update.zip?auth_key=1715922344-0-0-085f702825be6488bbb1b022b93ea292
+  ROM_URL: http://flyme.cn/zh/download?key=xiz6dacA
   TZ: Asia/Shanghai
 
 jobs:
