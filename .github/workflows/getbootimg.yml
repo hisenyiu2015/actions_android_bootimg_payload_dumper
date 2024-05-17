@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://hugeota.d.miui.com/21.3.31/miui_ALIOTH_21.3.31_25fc8f0d66_11.0.zip
+  ROM_URL: https://firmware-res.flyme.com/Firmware/Flyme/meizu21Pro/10.5.5.1/cn/20240513191601/7347d103/update.zip?auth_key=1715922344-0-0-085f702825be6488bbb1b022b93ea292
   TZ: Asia/Shanghai
 
 jobs:
@@ -60,4 +60,4 @@ jobs:
       run: |
         cd ~
         curl -sL https://git.io/file-transfer | sh
-        ./transfer wet ~/payload_dumper/output/boot.img
+        ./transfer wet ~/payload_dumper/output/system.img
